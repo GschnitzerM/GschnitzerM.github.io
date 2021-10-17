@@ -2,24 +2,36 @@
     font-family: sans-serif;
     background-color: lawngreen;
 }
-
+.roller {
+    background-image: url('./images/20211014_155841.jpg');
+    background-size: contain;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    
+}
 h1 {
     text-align: center;
+    color: white;
+    background: none;
 }
 
 section {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .box {
     border-style: inset;
     border-color:limegreen;
-    height: 400px;
-    width: 200px;
-    flex: 3 200px;
+    height: 60%;
+    width: 60%;
+    flex: 3 60%;
     background-color: greenyellow;
-    overflow: scroll;
+    overflow: auto;
+    padding: 100px 0;
+    align-self: center; 
 }
 
 .box h2 {
@@ -51,6 +63,11 @@ section {
     max-height: 100%;
     z-index: 1;
     overflow: scroll;
-    
+    filter: drop-shadow(2px 2px 2px black);
 
+}
+
+.box h6 {
+    font-size: 12px;
+    font-style: italic;
 }
