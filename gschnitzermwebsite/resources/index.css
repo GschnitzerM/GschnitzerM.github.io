@@ -30,11 +30,11 @@ footer {
 
 .menu {
     position: fixed;
-    top: 100px; left: 10px;
+    top: 79px; left: 8px;
     width: 150px;
     color: hsl(56, 68%, 66%);
-    background-color: rgba(139, 173, 159, 0.7);
-    background-size: 150px, 600px;
+    background-color: rgba(255, 65, 15, 0.1);
+    background-size: 150px, 1000px;
     z-index: 2
 }
 
